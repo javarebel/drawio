@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T03:43:15.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="SvV54KnUp5wZR4XVMN6v" version="12.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-30T03:59:03.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ub3edxUei3yHSKLiYm7s" version="12.9.4" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
-    <mxGraphModel dx="1186" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OMYVVOx9wpx7E8CzXibZ-7" target="OMYVVOx9wpx7E8CzXibZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OMYVVOx9wpx7E8CzXibZ-7" target="OMYVVOx9wpx7E8CzXibZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-7" value="hsa-account.afcucorp.test" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="128" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.535;entryY=0.24;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OMYVVOx9wpx7E8CzXibZ-8" target="OMYVVOx9wpx7E8CzXibZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.488;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OMYVVOx9wpx7E8CzXibZ-8" target="OMYVVOx9wpx7E8CzXibZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-8" value="se-int-services.afcucorp.test" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OMYVVOx9wpx7E8CzXibZ-9" target="OMYVVOx9wpx7E8CzXibZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-9" value="&#xa;lxot-se-int-wb1.afcucorp.test" style="aspect=fixed;perimeter=ellipsePerimeter;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OMYVVOx9wpx7E8CzXibZ-10" target="OMYVVOx9wpx7E8CzXibZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="225" />
+              <mxPoint x="715" y="110" />
+              <mxPoint x="835" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-10" value="&#xa;lxot-se-int-wb2.afcucorp.test" style="aspect=fixed;perimeter=ellipsePerimeter;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;imageBorder=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="200" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-11" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; white-space: normal ; background-color: rgb(255 , 255 , 255)&quot;&gt;lxot-se-int-sr1.afcucorp.test&lt;/span&gt;" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server2" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="43" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OMYVVOx9wpx7E8CzXibZ-12" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; white-space: normal ; background-color: rgb(255 , 255 , 255)&quot;&gt;lxot-se-int-sr2.afcucorp.test&lt;br&gt;&lt;/span&gt;" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server2" vertex="1" parent="1">
+          <mxGeometry x="900" y="280" width="43" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
